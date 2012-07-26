@@ -15,5 +15,5 @@ class SlimbarViewlet(ViewletBase):
 
     def update(self):
         current_domain = self.request.BASE1
-        self.sites_to_publish = [el for el in SITES_TO_PUBLISH if 
+        self.sites_to_publish = [el for el in SITES_TO_PUBLISH if
                                         el['title'] not in current_domain]
