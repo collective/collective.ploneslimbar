@@ -1,7 +1,7 @@
 <div id="slimbar" class="navbar">
   <div class="navbar-inner">
    <div class="container">
-    <a href="http://plone.org">plone.org</a>
+    <a id="plone-org" href="http://plone.org">plone.org</a>
     <dl class="actionMenu deactivated">
       <dt class="actionMenuHeader">
         <a href="#">plone in the world</a>
@@ -12,7 +12,7 @@
               <li><a href="" tal:attributes="href site/url"
                      tal:content="site/title">site</a>
               </li>
-            </tal:el> 
+            </tal:el>
         </ul>
       </dd>
     </dl>
