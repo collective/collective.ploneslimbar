@@ -4,5 +4,10 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Reordered viewlets
+- Changed styles
+- Added browser layer
+- Added buildout config
+  [gborelli]
 - Package created using zopeskel
   [Maurizio Delmonte, Abstract]
