@@ -6,7 +6,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.ploneslimbar">
 
-  <five:registerPackage package="." initialize=".initialize" />
+  <includeDependencies package="." />
 
   <genericsetup:registerProfile
       name="default"
@@ -19,13 +19,21 @@
   <browser:resource
         name="slimbar.css"
         file="slimbar.css"
+        layer=".interfaces.IPloneslimbarLayer"
+        />
+
+  <browser:resource
+        name="ico_plone_mini.png"
+        file="ico_plone_mini.png"
+        layer=".interfaces.IPloneslimbarLayer"
         />
 
   <browser:viewlet
       name="collective.ploneslimbar"
       manager="plone.app.layout.viewlets.interfaces.IPortalTop"
       class=".viewlet.SlimbarViewlet"
+      layer=".interfaces.IPloneslimbarLayer"
       permission="zope2.View"
       />
-  
+
 </configure>
