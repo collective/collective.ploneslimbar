@@ -4,6 +4,7 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Fixed js registry entry
 - Reordered viewlets
 - Changed styles
 - Added browser layer
