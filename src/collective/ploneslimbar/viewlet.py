@@ -2,6 +2,7 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from plone.app.layout.viewlets import ViewletBase
 
 SITES_TO_PUBLISH = [{'title': 'plone.de', 'url': 'http://plone.de'},
+                    {'title': 'plone.es', 'url': 'http://plone.es'},
                     {'title': 'plone.fr', 'url': 'http://plone.fr'},
                     {'title': 'plone.it', 'url': 'http://plone.it'},
                     {'title': 'plone.jp', 'url': 'http://plone.jp'},
