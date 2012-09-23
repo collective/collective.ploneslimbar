@@ -116,11 +116,18 @@ a#plone-org:hover {
   text-align: right;
 }
 #slimbar .actionMenuContent li a {
+  font-weight: normal;
   padding: 0.1em 1em;
   display: inline-block !important;
   width: 80px;
 }
-
+#slimbar .actionMenuContent a:hover {
+    color: white !important;
+}
 #slimbar dl.actionMenu.deactivated dd {
     display: none;
+}
+#slimbar ul {
+  background-color: transparent;
+  border: 0;
 }
