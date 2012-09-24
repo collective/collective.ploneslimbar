@@ -4,6 +4,7 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- added plone.nl website [gborelli]
 - Fixed js registry entry
 - Reordered viewlets
 - Changed styles

@@ -6,6 +6,7 @@ SITES_TO_PUBLISH = [{'title': 'plone.de', 'url': 'http://plone.de'},
                     {'title': 'plone.fr', 'url': 'http://plone.fr'},
                     {'title': 'plone.it', 'url': 'http://plone.it'},
                     {'title': 'plone.jp', 'url': 'http://plone.jp'},
+                    {'title': 'plone.nl', 'url': 'http://plone.nl'},
                     {'title': 'plone.org.br', 'url': 'http://plone.org.br'},
                     {'title': 'plone.org.pl', 'url': 'http://plone.org.pl/'},
                     ]
