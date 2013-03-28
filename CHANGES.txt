@@ -4,7 +4,7 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- added plone.ro website [hman]
 
 
 1.0 (2012-10-02)
